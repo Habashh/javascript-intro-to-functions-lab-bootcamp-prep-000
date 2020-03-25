@@ -1,3 +1,4 @@
+
 function shout(string) {
   return string.toUpperCase()
 }
@@ -40,3 +41,15 @@ else if (string==="I love you, Grandma."){
 }
 var string = "I love you, Grandma."
 sayHiToGrandma(string)
+
+function sayHiToGrandma(uppercase) {
+if (uppercase.toUpperCase() === uppercase){
+  return string.toLowerCase()
+}
+}
+var uppercase = "hello!"
+sayHiToGrandma(uppercase)
+//function shout(string) {
+//  return string.toUpperCase()
+//}
+
